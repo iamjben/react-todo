@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-
 import { Container, Row, Col } from 'react-bootstrap';
+import uuid from 'uuid';
 
 import TodoList from './TodoList';
 import TodoForm from './TodoForm';
-import uuid from 'uuid';
 
 class App extends Component {
   
